@@ -1,0 +1,36 @@
+.container {
+    display: grid;
+}
+
+#page-title {
+    background-color: tan;
+    text-align: center;
+}
+
+#navigation{
+    background-color: chocolate;
+    font-size: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+#grading_container {
+    grid-template-columns:45% 45%;
+    gap: 10%;
+}
+
+.container .grading_columns{
+    background-color: lightblue;
+}
+
+#home_portrait {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
